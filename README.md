@@ -4,7 +4,7 @@ Enterprise Home Lab Infrastructure: Proxmox & QNAP
 
 Project Overview
 
-This repository documents the architecture, deployment, and ongoing administration of a bare-metal home lab environment. Built to mimic enterprise IT infrastructure, this lab serves as a practical sandbox for hypervisor management (Proxmox VE), robust network storage provisioning (QNAP), and physical network troubleshooting.
+This repository documents the architecture, deployment, and ongoing administration of a bare-metal home lab environment. Built to mimic enterprise IT infrastructure, this lab serves as a practical sandbox for hypervisor management (Proxmox VE), robust network storage provisioning (QNAP), and network troubleshooting.
 
 This project demonstrates hands-on proficiency in domains critical to IT Support and Systems Administration.
 
@@ -22,6 +22,8 @@ NAS Chassis: QNAP TS-453Be (10GbE Expansion via PCIe).
 
 System Drive: Dedicated M.2 NVMe volume for lightning-fast QTS OS operations and application hosting.
 
+NAS Chassis: QNAP TS-251+ (Installation Soon)
+
 Network Topology
 
 Routing & Wireless: TP-Link Deco BE10000 Mesh Network.
@@ -36,7 +38,7 @@ Drive Provisioning:
 
 Isolated 8TB Thick Volume (Primary Data)
 
-Isolated 4TB Thick Volume (Disposable/Temp Data - isolated due to SMART sector warnings)
+Isolated 4TB Thick Volume (Disposable/Temp Data - isolated due to SMART sector warnings but will be replaced later)
 
 Isolated 2TB Thick Volume (Secondary Data)
 
