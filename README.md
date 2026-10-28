@@ -12,9 +12,9 @@ This project demonstrates hands-on proficiency in domains critical to IT Support
 
 Compute Layer
 
-Hypervisor: Bare-metal Proxmox VE installed on a Dell PowerEdge server. -Got her for 200 buckaroos
+Hypervisor: Bare-metal Proxmox VE installed on a Dell PowerEdge server. Got it for $200
 
-Workloads: Configured to host lightweight Linux Containers (LXC) for localized network services (AdGuard) and media management (Plex/Jellyfin environments). Also hosted a successful Palworld server despite memory leak issues
+Workloads: Configured to host lightweight Linux Containers (LXC) for localized network services (AdGuard) and media management (Plex/Jellyfin environments). Also hosted a successful Palworld server despite memory leak issues.
 
 Storage Layer
 
