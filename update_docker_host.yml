@@ -1,0 +1,9 @@
+---
+- name: Update and maintain Docker host
+  hosts: docker_nodes
+  become: yes
+  tasks:
+    - name: Update apt cache and upgrade packages
+      apt:
+        upgrade: dist
+        update_cache: yes
