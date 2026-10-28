@@ -6,15 +6,15 @@ Project Overview
 
 This repository documents the architecture, deployment, and ongoing administration of a bare-metal home lab environment. Built to mimic enterprise IT infrastructure, this lab serves as a practical sandbox for hypervisor management (Proxmox VE), robust network storage provisioning (QNAP), and physical network troubleshooting.
 
-This project demonstrates hands-on proficiency in domains critical to IT Support, Systems Administration, and CompTIA A+ core competencies.
+This project demonstrates hands-on proficiency in domains critical to IT Support and Systems Administration.
 
 🖥️ Hardware & Network Stack
 
 Compute Layer
 
-Hypervisor: Bare-metal Proxmox VE installed on a Dell PowerEdge server.
+Hypervisor: Bare-metal Proxmox VE installed on a Dell PowerEdge server. -Got her for 200 buckaroos
 
-Workloads: Configured to host lightweight Linux Containers (LXC) for localized network services and media management (Plex/Jellyfin environments).
+Workloads: Configured to host lightweight Linux Containers (LXC) for localized network services (AdGuard) and media management (Plex/Jellyfin environments). Also hosted a successful Palworld server despite memory leak issues
 
 Storage Layer
 
@@ -62,6 +62,6 @@ Resolution:
 
 Executed a physical network bypass, severing the NAS and Hypervisor connections from the failing switch.
 
-Rerouted localized traffic directly into the primary TP-Link Deco router's backplane.
+Rerouted localized traffic directly into the primary Deco router's backplane.
 
 Result: Restored 100% system uptime and stability, maintaining gigabit transfer speeds while the degraded 10GbE switch hardware undergoes RMA/replacement.
